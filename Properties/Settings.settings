@@ -5,5 +5,38 @@
     <Setting Name="serial_banned_message" Type="System.String" Scope="Application">
       <Value Profile="(Default)">You have been banned by a system administrator</Value>
     </Setting>
+    <Setting Name="server_url_text" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server URL:</Value>
+    </Setting>
+    <Setting Name="error_login_username" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">You must type in your username!</Value>
+    </Setting>
+    <Setting Name="error_login_password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">You must type in your password!</Value>
+    </Setting>
+    <Setting Name="error_login_empty" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">You must type in both your username &amp; password!</Value>
+    </Setting>
+    <Setting Name="login_username_label" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Username</Value>
+    </Setting>
+    <Setting Name="login_password_label" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Password</Value>
+    </Setting>
+    <Setting Name="login_button_text_login" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Login</Value>
+    </Setting>
+    <Setting Name="login_button_text_banned" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Banned from server</Value>
+    </Setting>
+    <Setting Name="error_login_failed" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Invalid username or password!</Value>
+    </Setting>
+    <Setting Name="login_title_success" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Successful Login</Value>
+    </Setting>
+    <Setting Name="login_title_invalid" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Invalid Login</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*=========================================================
+| remote-housekeeping
+| #########################################################
+| remote-housekepeing developed by Bill Gilson
+| Visit billsonnn.com/projects
+| #########################################################
+| Developed with stability & security in mind and uses
+| api calls to remote-housekeeping-api
+| #########################################################
+\=========================================================*/
+
+using System;
 using System.IO;
 using System.Net;
 using Housekeeping;
@@ -11,16 +22,8 @@ namespace Housekeeping
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         internal static void Main()
-        {
-            Program.start_environment();
-        }
-
-        internal static void start_environment()
         {
             if (!Environment.is_started)
             {

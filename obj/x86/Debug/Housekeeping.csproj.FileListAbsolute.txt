@@ -16,3 +16,13 @@ C:\Users\Bill\Documents\Visual Studio 2010\Projects\Housekeeping\Housekeeping\ob
 C:\Users\Bill\Documents\Visual Studio 2010\Projects\Housekeeping\Housekeeping\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Bill\Documents\Visual Studio 2010\Projects\Housekeeping\Housekeeping\bin\Debug\Housekeeping.exe.config
 C:\Users\Bill\Documents\Visual Studio 2010\Projects\Housekeeping\Housekeeping\obj\x86\Debug\Housekeeping.LoginForm.resources
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\bin\Debug\Housekeeping.exe.config
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\Housekeeping.exe
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\Housekeeping.pdb
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\bin\Debug\Housekeeping.exe
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\bin\Debug\Housekeeping.pdb
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\Housekeeping.LoginForm.resources
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\Housekeeping.Properties.Resources.resources
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bill\Documents\GitHub\remote-housekeeping\obj\x86\Debug\GenerateResource.write.1.tlog

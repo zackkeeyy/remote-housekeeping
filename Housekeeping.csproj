@@ -62,12 +62,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Configuration\ConfigurationData.cs" />
-    <Compile Include="Core\Configuration\LanguageData.cs" />
     <Compile Include="Core\Handlers\UserLogin.cs" />
     <Compile Include="Core\Security\BanCheck.cs" />
     <Compile Include="Core\Security\VolumeSerial.cs" />
     <Compile Include="Core\User.cs" />
     <Compile Include="Environment.cs" />
+    <Compile Include="HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

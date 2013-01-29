@@ -19,11 +19,11 @@ namespace Housekeeping.Utilities
         {
             try
             {
-                WebRequest request = WebRequest.Create("http://" + site_url + "/housekeeping/" + call_type + ".php");
+                WebRequest request = WebRequest.Create("http://" + site_url + "/remote-housekeeping-api/_handle.php");
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
                 ((HttpWebRequest)request).UserAgent = site_url + " Housekeeping Program";
-                post_data = post_data + "&volume_serial=" + volume_serial;
+                post_data = "do=" + call_type + "&volume_serial=" + volume_serial + "&" + post_data;
                 byte[] byteArray = Encoding.UTF8.GetBytes(post_data);
                 Stream dataStream = request.GetRequestStream();
                 dataStream.Write(byteArray, 0, byteArray.Length);
@@ -37,7 +37,7 @@ namespace Housekeeping.Utilities
 
             catch (Exception e)
             {
-                MessageBox.Show("Their was an error connecting to: " + site_url, "Server Connection", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Their was an error connecting to: " + site_url + " " + e.Message, "Server Connection", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return null;
             }
         }

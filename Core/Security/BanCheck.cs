@@ -9,7 +9,7 @@ namespace Housekeeping.Core.Security
     {
         internal static bool ban_check(string ban_type, string extra_data = null)
         {
-            return (Environment.do_call().remote_call("ban_check", "do=ban_check&type=volume_serial" + extra_data) == "1") ? true : false;
+            return (Environment.do_call().remote_call("ban_check", "type=volume_serial" + extra_data) == "1") ? true : false;
         }
     }
 }
